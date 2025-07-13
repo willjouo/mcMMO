@@ -3,6 +3,8 @@
 # if you wish to create the actual jar.
 name: Compile and test
 
+on: [push, pull_request]
+
 jobs:
   compile:
     name: Maven compiler
